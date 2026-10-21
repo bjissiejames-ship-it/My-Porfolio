@@ -1,4 +1,3 @@
-/* Includes padding and borders inside an element's width. */
 * {
   box-sizing: border-box;
 }
@@ -74,7 +73,6 @@ a {
   color: #245d88;
 }
 
-/* Flexbox places the photo and introduction next to each other. */
 .home {
   display: flex;
   align-items: center;
@@ -155,7 +153,6 @@ footer {
   background: #203b55;
 }
 
-/* JavaScript adds the dark-mode class to activate these colors. */
 #theme-button {
   margin-top: 18px;
   padding: 8px 16px;
@@ -198,7 +195,6 @@ body.dark-mode {
   color: white;
 }
 
-/* Applies these rules only when the screen is 600px wide or smaller. */
 @media (max-width: 600px) {
   .home {
     flex-direction: column;
